@@ -54,7 +54,7 @@ img{
 #hero h1{
     display: block;
     width: fit-content;
-    font-size: 3rem ;
+    font-size: 2.5rem ;
     position: relative;
     color: transparent;
     animation: textReveal .5s ease forwards;
