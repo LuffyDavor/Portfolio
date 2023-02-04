@@ -627,6 +627,9 @@ img{
     #header .nav-list ul a::after{
         font-size: 6rem;
     }
+    #header .name a{
+        font-size: 1.2rem;
+    }
 }
 
     @media screen and (max-width:800px) {
