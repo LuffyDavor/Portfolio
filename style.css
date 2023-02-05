@@ -54,7 +54,7 @@ img{
 #hero h1{
     display: block;
     width: fit-content;
-    font-size: 3rem ;
+    font-size: 2.5rem ;
     position: relative;
     color: transparent;
     animation: textReveal .5s ease forwards;
@@ -628,9 +628,9 @@ img{
         font-size: 6rem;
     }
 }
-@media screen and (max-width:300px) {
+@media screen and (max-width:400px) {
     #header .name a{
-        font-size: 0.7rem;
+        font-size: 0.4rem;
     }
 }
     @media screen and (max-width:800px) {
