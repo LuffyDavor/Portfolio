@@ -504,7 +504,7 @@ img{
      rgba(71, 0, 138, 0.9));
 }
 #footer .footer{
-    min-height: 150px;
+    min-height: 100px;
     flex-direction: column;
     padding-top: 30px;
     padding-bottom: 10px;
@@ -626,17 +626,53 @@ img{
         font-size: 11rem;
     }
 }
-@media screen and (max-width:500px) {
-    #header .nav-list ul a::after{
-        font-size: 4rem;
-    }
-}
+
 @media screen and (max-width:800px) {
     #header .name a{
         font-size: 1.1rem;
     }
     #footer .container{
         transform: scale(0.8);
+    }
+}
+@media screen and (max-width:500px) {
+    #header .nav-list ul a::after{
+        font-size: 5rem;
+    }
+
+    #skills h2{
+        transform: scale(0.8);
+    }
+    #skills .skill-box{
+        transform: scale(0.9);
+    }
+    #projects .title{
+        transform: scale(0.8);
+    }
+    #projects .projects-box{
+        transform: scale(0.9);
+    }
+    #projects .icon, .twoIcons{
+        transform: scale(0.9);
+    }
+    #aboutMe .title, #aboutMe .title span{
+        font-size: 2.5rem;
+    }
+    #aboutMe .subtitle{
+        font-size: 1.4rem;
+    }
+    #aboutMe .cta{
+        font-size: 1.35rem;
+    }
+    #footer .footer h2,#footer .footer h3,#footer .footer a{
+        font-size: 100%;
+    }
+    #footer .footer p {
+        font-size: 100%;
+        padding-bottom: 5px;
+    }
+    #footer .footer{
+        max-height: 170px ;
     }
 }
 @media screen and (max-width:330px) {
