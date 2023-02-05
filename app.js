@@ -7,6 +7,12 @@ hamburger.addEventListener('click',()=>{
     hamburger.classList.toggle('active');
     mobile_menu.classList.toggle('active');
 })
+effect.forEach(element => {
+    element.addEventListener("click", () => {
+    hamburger.classList.remove("active");
+    mobile_menu.classList.remove("active");
+    });
+});
 
 document.addEventListener('scroll',()=>{
     var scrollPosition= window.scrollY;
