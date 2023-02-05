@@ -639,7 +639,9 @@ img{
     #header .nav-list ul a::after{
         font-size: 5rem;
     }
-
+    #header .hamburger{
+        margin-right: 10px;
+    }
     #skills h2{
         transform: scale(0.8);
     }
