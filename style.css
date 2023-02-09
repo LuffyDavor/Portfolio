@@ -27,7 +27,7 @@ img{
 }
 /* START Hero Section */
 #hero{
-    background-image: url(./img/hero.jpg);
+    background-image: url(img/bg9.png);
     background-size: cover;
     background-position: top center;
     position: relative;
@@ -118,8 +118,26 @@ img{
 
 /* START Skills Section */
 #skills{
-    background-color: black;
+    background: linear-gradient(to bottom, 
+    rgba(0, 0, 0, 0.144) 0%, 
+    rgba(0, 0, 0,1) 100%), 
+    url(img/galaxybg.png);
     color: white;
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    z-index: 1;
+}
+#skills::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: .8;
+    z-index: -1;
 }
 #skills .skills{
     flex-direction: column;
@@ -186,8 +204,23 @@ img{
 
 /* START Projects Section */
 #projects{
-    background-color: black;
+    background-image: url(img/highgalaxy.png);
     color: white;
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    z-index: 1;
+}
+#projects::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: .9;
+    z-index: -1;
 }
 #projects .projects{
     flex-direction: column;
@@ -265,8 +298,23 @@ img{
 
 /* START About Me Section */
 #aboutMe{
-    background-color: black;
+    background-image: url(img/galaxyabout.png);
     color: white;
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    z-index: 1;
+}
+#aboutMe::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: .9;
+    z-index: -1;
 }
 #aboutMe .aboutMe{
     flex-direction: column;
@@ -596,6 +644,7 @@ img{
 #header .nav-list ul a::after{
     margin-top: 120px;
     display: var(--after-display);
+    color: rgba(84, 22, 151, 0.208);
 }
 #header .nav-list ul li a:hover{
     color: white;
@@ -639,9 +688,7 @@ img{
     #header .nav-list ul a::after{
         font-size: 5rem;
     }
-    #header .hamburger{
-        margin-right: 10px;
-    }
+
     #skills h2{
         transform: scale(0.8);
     }
