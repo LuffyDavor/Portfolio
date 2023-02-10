@@ -119,9 +119,9 @@ img{
 /* START Skills Section */
 #skills{
     background: linear-gradient(to bottom, 
-    rgba(28, 0, 54, 0) 87%, 
-    rgb(0, 0, 0) 100%), 
-    url(img/galaxybg.png);
+                rgba(28, 0, 54, 0) 87%, 
+                rgb(0, 0, 0) 100%), 
+                url(img/galaxybg.png);
     color: white;
     background-size: cover;
     background-position: top center;
@@ -205,9 +205,9 @@ img{
 /* START Projects Section */
 #projects{
     background: linear-gradient(to bottom, 
-    rgba(0, 0, 0, 0.144) 95%, 
-    rgb(0, 0, 0) 100%), 
-    url(img/highgalaxy.png);
+                rgba(0, 0, 0, 0.144) 95%, 
+                rgb(0, 0, 0) 100%), 
+                url(img/highgalaxy.png);
     color: white;
     background-size: cover;
     background-position: top center;
@@ -301,7 +301,10 @@ img{
 
 /* START About Me Section */
 #aboutMe{
-    background-image: url(img/galaxyabout.png);
+    background: linear-gradient(to top, 
+                rgba(0, 0, 0, 0.144) 98%, 
+                rgb(0, 0, 0) 100%),
+                url(img/galaxyabout.png);
     color: white;
     background-size: cover;
     background-position: top center;
@@ -377,10 +380,10 @@ img{
     
     border-radius: 20px;
     background-image:linear-gradient(black,black),
-    linear-gradient(to top, 
-    rgba(119, 0, 255, 0.8), 
-    rgba(0, 89, 255, 0.753), 
-    rgba(119, 0, 255, 0.8));
+                     linear-gradient(to top, 
+                     rgba(119, 0, 255, 0.8), 
+                     rgba(0, 89, 255, 0.753), 
+                     rgba(119, 0, 255, 0.8));
     background-origin: border-box;
     background-clip: content-box, border-box;
     z-index: -1;
@@ -551,8 +554,8 @@ img{
 /* START Footer Section */
 #footer {
     background-image: linear-gradient(to right,rgba(71, 0, 138, 0.9),
-     rgba(88, 35, 211, 0.9),
-     rgba(71, 0, 138, 0.9));
+                      rgba(88, 35, 211, 0.9),
+                      rgba(71, 0, 138, 0.9));
 }
 #footer .footer{
     min-height: 100px;
